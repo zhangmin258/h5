@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1, user-scalable=no" >
+	<title>h5学习-折线图图组件</title>
+	<link rel="stylesheet" type="text/css" href="../css/H5ComponentBase.css">
+	<link rel="stylesheet" type="text/css" href="../css/H5ComponentPolyLine.css">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background: #000;
+			font-size: 12px;
+		}
+
+		.iphone{
+			width: 340px;
+			height: 540px;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -170px;
+			margin-top: -270px;
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- 用于开发测试折线图组件 -->
+
+	<div class="iphone"></div>
+
+
+
+	<script type="text/javascript" src="../js/lib/jquery.js"></script>
+	<script type="text/javascript" src="../js/H5ComponentBase.js"></script>
+	<script type="text/javascript" src="../js/H5ComponentPolyLine.js"></script>
+
+
+	<script type="text/javascript">
+
+		var cfg = {
+			type: 'polyline',
+			// text: '折线图',
+			width: 530,
+			height: 400,
+			data: [
+				['JS', '0.7', '#ff7676'],
+				['HTML', '0.45', '#f90'],
+				['CSS3', '0.1', 'maroon'],
+				['PHP', '0.2'],
+				['JQuery', '0.35']
+			],
+
+			css: {
+				top: '30%',
+				opacity: 0
+			},
+			animateIn: {
+				opacity: 1,
+				top: '30%'
+			},
+			animateOut: {
+				opacity: 0,
+				top: '50%'
+			},
+			center: true
+		}
+
+		var h5 = new H5ComponentPolyLine('myPolyLineComponent', cfg);
+		$('.iphone').append(h5);
+
+
+		var leave = true;
+		$('body').click(function(){
+			leave = !leave;
+			$('.h5_component').trigger(leave ? 'onLeave' : 'onLoad');
+		});
+
+		setTimeout(function(){
+			$('body').click();
+		}, 1000);
+	</script>
+</body>
+</html>

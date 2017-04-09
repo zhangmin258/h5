@@ -1,0 +1,74 @@
+
+
+/*loading动画样式*/
+body{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+
+.loading{
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 50%;
+	margin: -30px auto;
+}
+
+.double-bounce1,.double-bounce2{
+	width: 100%;
+	height: 100%;
+	background: #0062e0;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.6;
+	-webkit-opacity: 0.6;
+}
+
+#rate{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	position: absolute;
+	top: 100%;
+	font-size: 14px;
+	color: #0062e0;
+}
+
+.double-bounce1{
+	animation: bounce1 2s ease-in-out infinite 0s;
+	-webkit-animation: bounce1 2s ease-in-out infinite 0s;
+}
+
+.double-bounce2{
+	animation: bounce2 2s ease-in-out infinite 0s;
+	-webkit-animation: bounce2 2s ease-in-out infinite 0s;
+}
+
+@-webkit-keyframes bounce1{
+	0%,100%{
+		transform: scale(0);
+	}
+	50%{
+		transform: scale(1);
+	}
+}
+
+@-webkit-keyframes bounce2{
+	0%,100%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(0);
+	}
+}
+
+
+
+
+

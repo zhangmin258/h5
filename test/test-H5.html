@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1, user-scalable=no" >
+	<title>h5学习</title>
+	<link rel="stylesheet" type="text/css" href="../css/H5.css">
+	<link rel="stylesheet" type="text/css" href="../css/H5ComponentBase.css">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			font-size: 12px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<!-- 用于开发测试内容组织功能，以及fullPage页面切换和组件切换功能 -->
+
+
+
+	<!-- 基本资源库 -->
+	<script type="text/javascript" src="../js/lib/jquery.js"></script>
+	<script type="text/javascript" src="../js/lib/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../js/lib/jquery.fullPage.js"></script>
+
+	<!-- H5对象资源 -->
+	<script type="text/javascript" src="../js/H5.js"></script>
+	<script type="text/javascript" src="../js/H5ComponentBase.js"></script>
+
+	<script type="text/javascript">
+
+	$(function(){
+		var h5 = new H5();
+		h5
+		.addPage('face', '首页')
+			.addComponent('logo', {
+				text: 'logo',
+				width: 400,
+				height: 100,
+				center: true,
+				css: {
+					background: 'red',
+					top: 100,
+					opacity: 0
+				},
+				animateIn: {
+					opacity: 1
+				},
+				animateOut: {
+					opacity: 0
+				}
+			})
+			.addComponent('slogan', {
+				text: 'slogan',
+				width: 400,
+				height: 100,
+				center: true,
+				css: {
+					background: 'green',
+					top: 200,
+					opacity: 0
+				},
+				animateIn: {
+					opacity: 1
+				},
+				animateOut: {
+					opacity: 0
+				}
+			})
+		.addPage('desc', '核心理念页')
+			.addComponent('caption', {
+				text: '核心理念',
+				width: 400,
+				height: 100,
+				center: true,
+				css: {
+					background: 'green',
+					top: 200,
+					opacity: 0
+				},
+				animateIn: {
+					opacity: 1
+				},
+				animateOut: {
+					opacity: 0
+				}
+			})
+		.addPage('page-3', '课程方向分布页')
+			.addComponent('caption', {
+				text: '课程方向分布',
+				width: 400,
+				height: 100,
+				center: true,
+				css: {
+					background: 'green',
+					top: 200,
+					opacity: 0
+				},
+				animateIn: {
+					opacity: 1
+				},
+				animateOut: {
+					opacity: 0
+				}
+			})
+		.loader();
+
+
+
+
+
+
+
+
+
+	});
+	</script>
+</body>
+</html>

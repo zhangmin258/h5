@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1, user-scalable=no" >
+	<title>h5学习-散点图组件</title>
+	<link rel="stylesheet" type="text/css" href="../css/H5ComponentBase.css">
+	<link rel="stylesheet" type="text/css" href="../css/H5ComponentPoint.css">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background: #000;
+			font-size: 12px;
+		}
+
+		.iphone{
+			width: 340px;
+			height: 540px;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -170px;
+			margin-top: -270px;
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- 用于开发测试散点图组件 -->
+
+	<div class="iphone"></div>
+
+
+
+	<script type="text/javascript" src="../js/lib/jquery.js"></script>
+	<script type="text/javascript" src="../js/H5ComponentBase.js"></script>
+	<script type="text/javascript" src="../js/H5ComponentPoint.js"></script>
+
+
+	<script type="text/javascript">
+
+		var cfg = {
+			type: 'point',
+			// text: '散点图',
+			width: 300,
+			height: 300,
+			data: [
+				['A项', '0.4', 'green'],
+				['B项', '0.2', 'yellow', '0', '-60%'],
+				['C项', '0.3', 'red', '0', '120%']
+			],
+
+			css: {
+				bottom: '40%'
+			},
+			center: true
+		}
+
+		var h5 = new H5ComponentPoint('myPointComponent', cfg);
+		$('.iphone').append(h5);
+
+
+		var leave = true;
+		$('body').click(function(){
+			leave = !leave;
+			$('.h5_component').trigger(leave ? 'onLeave' : 'onLoad');
+		});
+
+		setTimeout(function(){
+			$('body').click();
+		}, 1000);
+	</script>
+</body>
+</html>

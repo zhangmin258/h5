@@ -1,0 +1,1193 @@
+
+
+
+
+
+
+[
+    {
+        "isPage": true, 
+        "name": "face"
+    }, 
+    {
+        "isPage": false, 
+        "name": "slide_up", 
+        "cfg": {
+            "bg": "img/footer.png", 
+            "css": {
+                "width": "100%", 
+                "height": "20px", 
+                "left": 0, 
+                "bottom": -20, 
+                "opacity": 0, 
+                "zIndex": 9999
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": -20
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "logo", 
+        "cfg": {
+            "center": true, 
+            "width": 395, 
+            "height": 130, 
+            "bg": "img/face_logo.png", 
+            "css": {
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 100
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 0
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "slogan", 
+        "cfg": {
+            "center": true, 
+            "width": 365, 
+            "height": 99, 
+            "bg": "img/face_slogan.png", 
+            "css": {
+                "opacity": 0, 
+                "top": 180
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "left": "50%"
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "left": "0%"
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "face_img_left", 
+        "cfg": {
+            "width": 370, 
+            "height": 493, 
+            "bg": "img/face_img_left.png", 
+            "css": {
+                "opacity": 0, 
+                "left": -60, 
+                "bottom": -60
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "left": 0, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "left": -60, 
+                "bottom": -60
+            }, 
+            "delay": 1000
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "face_img_right", 
+        "cfg": {
+            "width": 276, 
+            "height": 449, 
+            "bg": "img/face_img_right.png", 
+            "css": {
+                "opacity": 0, 
+                "right": -100, 
+                "bottom": -60
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "right": 0, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "right": -100, 
+                "bottom": -60
+            }, 
+            "delay": 1500
+        }
+    }, 
+    {
+        "isPage": true
+    }, 
+    {
+        "isPage": false, 
+        "name": "slide_up", 
+        "cfg": {
+            "bg": "img/footer.png", 
+            "css": {
+                "width": "100%", 
+                "height": "20px", 
+                "left": 0, 
+                "bottom": -20, 
+                "opacity": 0, 
+                "zIndex": 9999
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": -20
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "caption", 
+        "cfg": {
+            "text": "核心理念"
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "text", 
+        "cfg": {
+            "width": 500, 
+            "height": 30, 
+            "center": true, 
+            "text": "IT教育网=只学有用的", 
+            "css": {
+                "opacity": 0, 
+                "textAlign": "center", 
+                "color": "red", 
+                "fontSize": "26px"
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 120
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 240
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "description", 
+        "cfg": {
+            "width": 481, 
+            "height": 295, 
+            "center": true, 
+            "bg": "img/description_bg.gif", 
+            "text": "2013年，IT教育网的诞生引领中国IT职业从教育进入了新时代；高质量实战课程、全新教学模式、实时互动学习、以领先优势打造行业品牌；迄今为止，IT教育网已成为中国最大、互动性最高的IT技能学习平台。", 
+            "css": {
+                "opacity": 0, 
+                "padding": "15px 10px 10px 10px", 
+                "color": "#fff", 
+                "fontSize": "15px", 
+                "lineHeight": "18px", 
+                "textAlign": "justify", 
+                "top": 240
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 190
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 240
+            }, 
+            "delay": 1000
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "people", 
+        "cfg": {
+            "center": true, 
+            "width": 515, 
+            "height": 305, 
+            "bg": "img/p1_people.png", 
+            "css": {
+                "opacity": 0, 
+                "bottom": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 40
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": 0
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": true
+    }, 
+    {
+        "isPage": false, 
+        "name": "slide_up", 
+        "cfg": {
+            "bg": "img/footer.png", 
+            "css": {
+                "width": "100%", 
+                "height": "20px", 
+                "left": 0, 
+                "bottom": -20, 
+                "opacity": 0, 
+                "zIndex": 9999
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": -20
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "caption", 
+        "cfg": {
+            "text": "课程分布方向"
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "polyline", 
+        "cfg": {
+            "type": "polyline", 
+            "data": [
+                [
+                    "前端开发", 
+                    "0.7", 
+                    "#ff7676"
+                ], 
+                [
+                    "移动开发", 
+                    "0.4"
+                ], 
+                [
+                    "后端开发", 
+                    "0.20", 
+                    "blue"
+                ], 
+                [
+                    "数据处理", 
+                    "0.3"
+                ]
+            ], 
+            "width": 530, 
+            "height": 300, 
+            "center": true, 
+            "css": {
+                "top": 100, 
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 250
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 100
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "msg", 
+        "cfg": {
+            "text": "前端开发课程占70%", 
+            "css": {
+                "width": "100%", 
+                "color": "red", 
+                "top": 300, 
+                "textAlign": "center", 
+                "fontSize": "18px", 
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 160
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 300
+            }, 
+            "delay": 2500
+        }
+    }, 
+    {
+        "isPage": true
+    }, 
+    {
+        "isPage": false, 
+        "name": "slide_up", 
+        "cfg": {
+            "bg": "img/footer.png", 
+            "css": {
+                "width": "100%", 
+                "height": "20px", 
+                "left": 0, 
+                "bottom": -20, 
+                "opacity": 0, 
+                "zIndex": 9999
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": -20
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "caption", 
+        "cfg": {
+            "text": "移动开发课程资源"
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "pie", 
+        "cfg": {
+            "type": "pie", 
+            "data": [
+                [
+                    "Android", 
+                    "0.3", 
+                    "#ff7676"
+                ], 
+                [
+                    "Ios", 
+                    "0.2", 
+                    "maroon"
+                ], 
+                [
+                    "Webapp", 
+                    "0.15", 
+                    "#f90"
+                ], 
+                [
+                    "Cocos2d", 
+                    "0.2", 
+                    "blue"
+                ], 
+                [
+                    "Unity3D", 
+                    "0.15", 
+                    "green"
+                ]
+            ], 
+            "width": 350, 
+            "height": 350, 
+            "center": true, 
+            "css": {
+                "top": 400, 
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 250
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 400
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "msg", 
+        "cfg": {
+            "text": "Android开发课程占30%", 
+            "css": {
+                "width": "100%", 
+                "color": "red", 
+                "top": 300, 
+                "textAlign": "center", 
+                "fontSize": "18px", 
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 160
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 300
+            }, 
+            "delay": 2000
+        }
+    }, 
+    {
+        "isPage": true
+    }, 
+    {
+        "isPage": false, 
+        "name": "slide_up", 
+        "cfg": {
+            "bg": "img/footer.png", 
+            "css": {
+                "width": "100%", 
+                "height": "20px", 
+                "left": 0, 
+                "bottom": -20, 
+                "opacity": 0, 
+                "zIndex": 9999
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": -20
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "caption", 
+        "cfg": {
+            "text": "前端开发课程"
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "bar", 
+        "cfg": {
+            "type": "bar", 
+            "data": [
+                [
+                    "Javascript", 
+                    "0.5", 
+                    "#ff7676"
+                ], 
+                [
+                    "HTML/CSS", 
+                    "0.45", 
+                    "#f90"
+                ], 
+                [
+                    "CSS3", 
+                    "0.1", 
+                    "maroon"
+                ], 
+                [
+                    "HTML5", 
+                    "0.2"
+                ], 
+                [
+                    "Jquery", 
+                    "0.35"
+                ], 
+                [
+                    "Bootstrap", 
+                    "0.2"
+                ], 
+                [
+                    "AngularJs", 
+                    "0.09"
+                ]
+            ], 
+            "width": 530, 
+            "height": 600, 
+            "center": true, 
+            "css": {
+                "bottom": 20, 
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 40
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": 20
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "msg", 
+        "cfg": {
+            "text": "Javascript开发课程占50%", 
+            "css": {
+                "width": "100%", 
+                "color": "red", 
+                "top": 300, 
+                "textAlign": "center", 
+                "fontSize": "18px", 
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 160
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 300
+            }, 
+            "delay": 2500
+        }
+    }, 
+    {
+        "isPage": true
+    }, 
+    {
+        "isPage": false, 
+        "name": "slide_up", 
+        "cfg": {
+            "bg": "img/footer.png", 
+            "css": {
+                "width": "100%", 
+                "height": "20px", 
+                "left": 0, 
+                "bottom": -20, 
+                "opacity": 0, 
+                "zIndex": 9999
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": -20
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "caption", 
+        "cfg": {
+            "text": "前端开发课程"
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "bar_v", 
+        "cfg": {
+            "type": "bar_v", 
+            "data": [
+                [
+                    "Javascript", 
+                    "0.5", 
+                    "#ff7676"
+                ], 
+                [
+                    "HTML", 
+                    "0.45", 
+                    "#f90"
+                ], 
+                [
+                    "CSS3", 
+                    "0.3", 
+                    "maroon"
+                ], 
+                [
+                    "HTML5", 
+                    "0.35"
+                ], 
+                [
+                    "JQuery", 
+                    "0.4"
+                ], 
+                [
+                    "Bootstrap", 
+                    "0.2"
+                ]
+            ], 
+            "width": 600, 
+            "height": 400, 
+            "center": true, 
+            "css": {
+                "bottom": 100, 
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 150
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": 100
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "msg", 
+        "cfg": {
+            "text": "Bootstrap开发课程占20%", 
+            "css": {
+                "width": "100%", 
+                "color": "red", 
+                "top": 300, 
+                "textAlign": "center", 
+                "fontSize": "18px", 
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 160
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 300
+            }, 
+            "delay": 2500
+        }
+    }, 
+    {
+        "isPage": true
+    }, 
+    {
+        "isPage": false, 
+        "name": "slide_up", 
+        "cfg": {
+            "bg": "img/footer.png", 
+            "css": {
+                "width": "100%", 
+                "height": "20px", 
+                "left": 0, 
+                "bottom": -20, 
+                "opacity": 0, 
+                "zIndex": 9999
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": -20
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "caption", 
+        "cfg": {
+            "text": "后端开发课程"
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "radar", 
+        "cfg": {
+            "type": "radar", 
+            "data": [
+                [
+                    "Java", 
+                    "0.7", 
+                    "#ff7676"
+                ], 
+                [
+                    "PHP", 
+                    "0.45", 
+                    "#f90"
+                ], 
+                [
+                    ".net", 
+                    "0.3", 
+                    "maroon"
+                ], 
+                [
+                    "Ruby", 
+                    "0.2"
+                ], 
+                [
+                    "Python", 
+                    "0.35"
+                ], 
+                [
+                    "Node.js", 
+                    "0.3"
+                ], 
+                [
+                    "C++", 
+                    "0.5", 
+                    "#ff7676"
+                ]
+            ], 
+            "width": 400, 
+            "height": 400, 
+            "center": true, 
+            "css": {
+                "opacity": 0, 
+                "bottom": 50
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 120
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": 50
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "msg", 
+        "cfg": {
+            "text": "Java开发课程占70%", 
+            "css": {
+                "width": "100%", 
+                "color": "red", 
+                "top": 300, 
+                "textAlign": "center", 
+                "fontSize": "18px", 
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 160
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 300
+            }, 
+            "delay": 2500
+        }
+    }, 
+    {
+        "isPage": true
+    }, 
+    {
+        "isPage": false, 
+        "name": "slide_up", 
+        "cfg": {
+            "bg": "img/footer.png", 
+            "css": {
+                "width": "100%", 
+                "height": "20px", 
+                "left": 0, 
+                "bottom": -20, 
+                "opacity": 0, 
+                "zIndex": 9999
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": -20
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "caption", 
+        "cfg": {
+            "text": "课程报名人数过万"
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "ring-all", 
+        "cfg": {
+            "type": "ring", 
+            "data": [
+                [
+                    "总课程", 
+                    0.86, 
+                    "#ff7676"
+                ]
+            ], 
+            "width": 300, 
+            "height": 300, 
+            "center": true, 
+            "css": {
+                "fontSize": "18px", 
+                "opacity": 0, 
+                "top": 120
+            }, 
+            "animateIn": {
+                "opacity": 1
+            }, 
+            "animateOut": {
+                "opacity": 0
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "ring-1", 
+        "cfg": {
+            "type": "ring", 
+            "data": [
+                [
+                    "前端开发", 
+                    0.87, 
+                    "darkorange"
+                ]
+            ], 
+            "width": 140, 
+            "height": 140, 
+            "css": {
+                "fontSize": "12px", 
+                "opacity": 0, 
+                "bottom": 150, 
+                "left": "10%"
+            }, 
+            "animateIn": {
+                "opacity": 1
+            }, 
+            "animateOut": {
+                "opacity": 0
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "ring-2", 
+        "cfg": {
+            "type": "ring", 
+            "data": [
+                [
+                    "后端开发", 
+                    0.3, 
+                    "green"
+                ]
+            ], 
+            "width": 140, 
+            "height": 140, 
+            "center": true, 
+            "css": {
+                "fontSize": "12px", 
+                "opacity": 0, 
+                "bottom": 150
+            }, 
+            "animateIn": {
+                "opacity": 1
+            }, 
+            "animateOut": {
+                "opacity": 0
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "ring-3", 
+        "cfg": {
+            "type": "ring", 
+            "data": [
+                [
+                    "移动开发", 
+                    0.46, 
+                    "maroon"
+                ]
+            ], 
+            "width": 140, 
+            "height": 140, 
+            "css": {
+                "fontSize": "12px", 
+                "opacity": 0, 
+                "bottom": 150, 
+                "right": "10%"
+            }, 
+            "animateIn": {
+                "opacity": 1
+            }, 
+            "animateOut": {
+                "opacity": 0
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "ring-4", 
+        "cfg": {
+            "type": "ring", 
+            "data": [
+                [
+                    "图像处理", 
+                    0.31, 
+                    "blue"
+                ]
+            ], 
+            "width": 140, 
+            "height": 140, 
+            "css": {
+                "fontSize": "12px", 
+                "opacity": 0, 
+                "bottom": 70, 
+                "left": "25%"
+            }, 
+            "animateIn": {
+                "opacity": 1
+            }, 
+            "animateOut": {
+                "opacity": 0
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "ring-5", 
+        "cfg": {
+            "type": "ring", 
+            "data": [
+                [
+                    "数据处理", 
+                    0.4, 
+                    "red"
+                ]
+            ], 
+            "width": 140, 
+            "height": 140, 
+            "css": {
+                "fontSize": "12px", 
+                "opacity": 0, 
+                "bottom": 70, 
+                "right": "25%"
+            }, 
+            "animateIn": {
+                "opacity": 1
+            }, 
+            "animateOut": {
+                "opacity": 0
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "msg", 
+        "cfg": {
+            "text": "不同课程报名人数超过一万占比", 
+            "css": {
+                "width": "100%", 
+                "color": "red", 
+                "top": 400, 
+                "textAlign": "center", 
+                "fontSize": "18px", 
+                "opacity": 0
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 300
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 400
+            }, 
+            "delay": 2000
+        }
+    }, 
+    {
+        "isPage": true
+    }, 
+    {
+        "isPage": false, 
+        "name": "slide_up", 
+        "cfg": {
+            "bg": "img/footer.png", 
+            "css": {
+                "width": "100%", 
+                "height": "20px", 
+                "left": 0, 
+                "bottom": -20, 
+                "opacity": 0, 
+                "zIndex": 9999
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": -20
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "caption", 
+        "cfg": {
+            "text": "课程难度分布"
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "point", 
+        "cfg": {
+            "type": "point", 
+            "data": [
+                [
+                    "中级", 
+                    "0.5", 
+                    "#ff7676"
+                ], 
+                [
+                    "初级", 
+                    "0.2", 
+                    "#ffa3a4", 
+                    "0", 
+                    "-60%"
+                ], 
+                [
+                    "高级", 
+                    "0.3", 
+                    "#99c1ff", 
+                    "50%", 
+                    "120%"
+                ]
+            ], 
+            "width": 300, 
+            "height": 300, 
+            "center": true, 
+            "css": {
+                "opacity": 0, 
+                "bottom": "10%"
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": "35%"
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": "10%"
+            }
+        }
+    }, 
+    {
+        "isPage": true, 
+        "name": "tail"
+    }, 
+    {
+        "isPage": false, 
+        "name": "slide_up", 
+        "cfg": {
+            "bg": "img/footer.png", 
+            "css": {
+                "width": "100%", 
+                "height": "20px", 
+                "left": 0, 
+                "bottom": -20, 
+                "opacity": 0, 
+                "zIndex": 9999
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "bottom": 0
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "bottom": -20
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "logo", 
+        "cfg": {
+            "center": true, 
+            "width": 359, 
+            "height": 129, 
+            "bg": "img/tail_logo.png", 
+            "css": {
+                "opacity": 0, 
+                "top": 240
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 210
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 240
+            }
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "slogan", 
+        "cfg": {
+            "width": 314, 
+            "height": 46, 
+            "bg": "img/tail_slogan.png", 
+            "css": {
+                "opacity": 0, 
+                "top": 280
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "left": "30%"
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "left": "0%"
+            }, 
+            "delay": 500
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "share", 
+        "cfg": {
+            "width": 128, 
+            "height": 120, 
+            "bg": "img/tail_share.png", 
+            "css": {
+                "opacity": 0, 
+                "top": 110, 
+                "right": 110
+            }, 
+            "animateIn": {
+                "opacity": 1, 
+                "top": 10, 
+                "right": 10
+            }, 
+            "animateOut": {
+                "opacity": 0, 
+                "top": 110, 
+                "right": 110
+            }, 
+            "delay": 1000
+        }
+    }, 
+    {
+        "isPage": false, 
+        "name": "back", 
+        "cfg": {
+            "center": true, 
+            "width": 52, 
+            "height": 50, 
+            "bg": "img/tail_back.png"
+        }
+    }
+]

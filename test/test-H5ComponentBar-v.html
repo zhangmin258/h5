@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1, user-scalable=no" >
+	<title>h5学习-垂直柱图组件</title>
+	<link rel="stylesheet" type="text/css" href="../css/H5ComponentBase.css">
+	<!-- <link rel="stylesheet" type="text/css" href="../css/H5ComponentBar.css"> -->
+	<link rel="stylesheet" type="text/css" href="../css/H5ComponentBar_v.css">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background: #000;
+			font-size: 12px;
+		}
+
+		.iphone{
+			width: 340px;
+			height: 540px;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -170px;
+			margin-top: -270px;
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- 用于开发测试垂直柱图组件 -->
+
+	<div class="iphone"></div>
+
+
+
+	<script type="text/javascript" src="../js/lib/jquery.js"></script>
+	<script type="text/javascript" src="../js/H5ComponentBase.js"></script>
+	<script type="text/javascript" src="../js/H5ComponentBar.js"></script>
+	<script type="text/javascript" src="../js/H5ComponentBar_v.js"></script>
+
+
+	<script type="text/javascript">
+
+		var cfg = {
+			type: 'bar_v',
+			// text: '柱图',
+			width: 600,
+			height: 400,
+			data: [
+				['Javascript', '0.8', '#ff7676'],
+				['HTML/CSS', '0.6', '#f90'],
+				['CSS3', '0.1', 'maroon'],
+				['HTML5', '0.2'],
+				['Jquery', '0.35']
+			],
+
+			css: {
+				top: '50%',
+				opacity: 0
+			},
+			animateIn: {
+				opacity: 1,
+				top: '30%'
+			},
+			animateOut: {
+				opacity: 0,
+				top: '50%'
+			},
+			center: true
+		}
+
+		var h5 = new H5ComponentBar_v('myBarComponent', cfg);
+		$('.iphone').append(h5);
+
+
+		var leave = true;
+		$('body').click(function(){
+			leave = !leave;
+			$('.h5_component').trigger(leave ? 'onLeave' : 'onLoad');
+		});
+
+		setTimeout(function(){
+			$('body').click();
+		}, 1000);
+	</script>
+</body>
+</html>

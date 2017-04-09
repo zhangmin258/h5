@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1, user-scalable=no" >
+	<title>h5学习</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		.component{
+			width: 50%;
+			height: 50px;
+			margin-bottom: 20px;
+			background: #eee;
+			display: none;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- 用于验证fullpage.js  切换页面  以及内容组织结构可用  组件能够进行动画 -->
+
+	<div id="h5">
+		<div class="page section" id="page-1">
+			<div class="component log">logo</div>
+			<div class="component slogan">slogan</div>
+		</div>
+		<div class="page section" id="page-2">
+			<div class="component desc">desc</div>
+		</div>
+		<div class="page section" id="page-3">
+			<div class="component bar">bar</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="../js/lib/jquery.js"></script>
+	<script type="text/javascript" src="../js/lib/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../js/lib/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+
+		$(function(){
+
+			setTimeout(function(){
+				$('.page').eq(0).find('.component').fadeIn();
+			},1000);
+
+			$('#h5').fullpage({
+				'sectionsColor': ['red','green','yellow'],
+				onLeave: function(index,nextIndex,direction){
+					$('.page').eq(index-1).find('.component').fadeOut();
+				},
+				afterLoad: function(anchorLink,index){
+					$('.page').eq(index-1).find('.component').fadeIn();
+				}
+			});
+
+		});
+
+
+	</script>
+</body>
+</html>

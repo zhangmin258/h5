@@ -1,0 +1,111 @@
+
+/*柱图组件样式*/
+.h5_component_bar{
+
+}
+
+
+.h5_component_bar .line{
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.h5_component_bar .name{
+    width: 60px;
+    float: left;
+    color: #000;
+    text-align: center;
+}
+
+
+.h5_component_bar .rate{
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    position: relative;
+}
+
+
+.h5_component_bar .rate .bg{
+    background: #99c0ff;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    -webkit- border-radius: 3px;
+}
+
+
+.h5_component_bar .per{
+    float: left;
+    width: 20px;
+    margin-left: 5px;
+    color: #99c0ff;
+    opacity: 0;
+}
+
+
+.h5_component_bar_load .rate .bg{
+    -webkit-transition: all 1s 1s;
+    width: 100%;
+}
+
+.h5_component_bar_leave .rate .bg{
+    width: 0%;
+}
+
+.h5_component_bar_load .per{
+    -webkit-transition: all 1s 2s;
+    -webkit-opacity: 1;
+}
+
+.h5_component_bar_leave .per{
+   -webkit-opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

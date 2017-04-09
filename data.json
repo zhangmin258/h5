@@ -548,7 +548,7 @@
             }, 
             "animateIn": {
                 "opacity": 1, 
-                "top": 190
+                "top": 130
             }, 
             "animateOut": {
                 "opacity": 0, 

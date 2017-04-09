@@ -859,7 +859,7 @@
             "css": {
                 "fontSize": "12px", 
                 "opacity": 0, 
-                "bottom": 150, 
+                "bottom": 130, 
                 "left": "10%"
             }, 
             "animateIn": {
@@ -888,7 +888,7 @@
             "css": {
                 "fontSize": "12px", 
                 "opacity": 0, 
-                "bottom": 150
+                "bottom": 130
             }, 
             "animateIn": {
                 "opacity": 1
@@ -915,7 +915,7 @@
             "css": {
                 "fontSize": "12px", 
                 "opacity": 0, 
-                "bottom": 150, 
+                "bottom": 130, 
                 "right": "10%"
             }, 
             "animateIn": {
@@ -943,7 +943,7 @@
             "css": {
                 "fontSize": "12px", 
                 "opacity": 0, 
-                "bottom": 70, 
+                "bottom": 50, 
                 "left": "25%"
             }, 
             "animateIn": {
@@ -971,7 +971,7 @@
             "css": {
                 "fontSize": "12px", 
                 "opacity": 0, 
-                "bottom": 70, 
+                "bottom": 50, 
                 "right": "25%"
             }, 
             "animateIn": {
